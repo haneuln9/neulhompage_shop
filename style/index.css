@@ -1,0 +1,134 @@
+header {}
+header #adv {background:skyblue;
+    width:1440px; margin:0 auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;    
+}
+header #adv .adv_contents {background:yellow;
+    width:713px; height:25px;
+    display:flex;
+    flex-flow:row nowrap; 
+    align-items:center;
+    justify-content:center;
+    position: relative;
+}
+header #adv .adv_contents p {
+    font-size:0.75rem;
+}
+header #adv .adv_contents #close {
+    width:25px; height:25px;
+    background:none;
+    position: absolute;
+    right:0;
+}
+header #adv .adv_contents #close img {width:100%; }
+/*----------------광고 끝-----------*/
+header #user { background:yellowgreen;
+    width:1200px; margin:0 auto;
+    padding:20px 0;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-end;
+    align-items:center;
+}
+header #user .userbar {
+    
+}
+header #user .userbar a {
+    font-size:1rem;
+    margin-right:10px;
+}
+/*---------------------------userbar 끝---------------*/
+header #user #searchFrm {
+    border:1px solid black;
+    border-radius:40px ;
+    
+}
+header #user #searchFrm fieldset {
+    display:flex;
+    align-items:center;
+    padding:0 10px;
+}
+header #user #searchFrm fieldset #search {
+    background:none;
+}
+header #user #searchFrm fieldset .searchBtn {
+    width:30px;height:30px;
+    background:none;
+}
+header #user #searchFrm fieldset .searchBtn img {width:100%;}
+/*---------------------------검색 끝---------------------*/
+header .logo {background:pink;
+    width:1200px; margin:0 auto;
+    padding:50px 0;
+    display:flex;
+    justify-content:center;
+}
+header .logo h1 {
+    width:250px; height:80px;
+}
+header .logo h1 a {}
+header .logo h1 a img {width:100%;}
+/*---------------------------------gnb 시작--------------------------------------------*/
+header .gnb {background:lightcoral;
+    width:1200px; margin:0 auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    padding:50px 0;
+}
+header .gnb li {
+
+}
+header .gnb li a {
+    font-size:1.333rem;
+    font-weight: 700;
+}
+/*-------------------------------------#neul_slide 시작-------------------------------------*/
+main {}
+main #neul_slide {
+    width:1200px; height:350px;
+}
+main #neul_slide .swiper-wrapper {}
+main #neul_slide .swiper-wrapper .swiper-slide {}
+main #neul_slide .swiper-wrapper .slide1 {
+    background:orange;
+}
+main #neul_slide .swiper-wrapper .slide2 {
+    background:yellow;
+}
+main #neul_slide .swiper-wrapper .slide3 {
+    background:green;
+}
+main #neul_slide .swiper-wrapper .slide4 {
+    background:pink;
+}
+/*------------------------------리뷰-------- ---------------------------*/
+main .review {background:lightblue;
+    width:1200px; margin:0 auto;
+    text-align:center;
+    padding:30px 0;
+}
+main .review h2 {font-size:1.333rem ;}
+/*-------------------리뷰 스와이퍼---------------------------------------*/
+main #review_slide {
+    width:1200px;
+    padding:20px 0;
+}
+main #review_slide .swiper-wrapper {width:300px; height: 350px;}
+main #review_slide .swiper-wrapper .slide1 {background:red;}
+main #review_slide .swiper-wrapper .slide2 {background:blue;}
+main #review_slide .swiper-wrapper .slide3 {background:hotpink;}
+main #review_slide .swiper-wrapper .slide4 {background:aqua;}
+main #review_slide .swiper-wrapper .slide5 {background:coral;}
+main #review_slide .swiper-wrapper .slide6 {background:yellow;}
+/*---------------------------------베스트-----------------------------*/
+main .best {}
+main .best h2 {
+    background:lightblue;
+    width:1200px; margin:0 auto;
+    text-align:center;
+    padding:30px 0;
+}
